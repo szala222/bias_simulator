@@ -44,13 +44,13 @@ The simulator currently includes three cognitive biases:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/cognitive-bias-simulator.git
-cd cognitive-bias-simulator
+git clone https://github.com/szala222/bias_simulator.git
+cd cognitive_bias_simulator
 ```
 
 2. Install the required packages:
 ```bash
-pip install -r requirements.txt
+pip install streamlit pandas matplotlib numpy altair seaborn
 ```
 
 3. Run the application:
@@ -74,7 +74,6 @@ cognitive-bias-simulator/
 ├── confirmation_bias.py     # Confirmation bias experiments
 ├── anchoring_bias.py        # Anchoring bias experiments
 ├── framing_effect.py        # Framing effect experiments
-├── requirements.txt         # Python dependencies
 └── README.md                # This file
 ```
 
