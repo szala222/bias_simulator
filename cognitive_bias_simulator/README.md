@@ -92,9 +92,9 @@ Based on Tversky and Kahneman's pioneering work, the simulator demonstrates:
 
 ### Framing Effect
 Implements three types of framing based on Levin, Schneider, and Gaeth's (1998) typology:
-- **Risk/Choice Framing**: Based on Tversky and Kahneman's (1981) Asian Disease Problem
-- **Attribute Framing**: Based on Levin and Gaeth's (1988) research on product evaluation
-- **Goal Framing**: Based on research by O'Keefe and Jensen (2007) on health behavior messaging
+- **Risk/Choice Framing**: Demonstrates how presenting the same decision outcomes in terms of gains versus losses can dramatically shift risk preferences. Based on Prospect Theory (Kahneman & Tversky, 1979), this type of framing shows that people tend to avoid risks when considering gains but seek risks when considering losses, even when the objective outcomes are identical.
+- **Attribute Framing**: Illustrates how describing a single attribute of an object or event in different but logically equivalent ways can significantly affect its evaluation. This type of framing focuses on how positive versus negative labeling of the same characteristic (e.g., "75% lean" vs. "25% fat") influences perception and judgment.
+- **Goal Framing**:  Examines how messages emphasizing either the benefits of taking an action (gain frame) or the costs of not taking an action (loss frame) affect persuasion and motivation. This type of framing is particularly relevant in health communications, environmental messaging, and financial decision-making.
 
 ## Educational Value
 
@@ -125,15 +125,5 @@ Potential future additions to the simulator include:
 - Expanded educational content and references
 - Data export features for educators and researchers
 
-## Contributing
+.
 
-Contributions to expand the simulator with new biases or improve existing experiments are welcome. Please feel free to submit a pull request or open an issue to discuss potential changes.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- The cognitive psychology research community for developing the theoretical frameworks and experimental paradigms
-- The Streamlit team for creating an accessible framework for interactive applications
